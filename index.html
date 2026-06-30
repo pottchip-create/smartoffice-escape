@@ -668,8 +668,8 @@ var S={
 </script>
 <script>
 // ── 설정 ──────────────────────────────────────
-var SHEET_ENABLED=false;
-var SHEET_URL='';
+var SHEET_ENABLED=true;
+var SHEET_URL='https://docs.google.com/spreadsheets/d/13UmO-04HfH_3IQMN8xJjFF-zsVDgO8H1j6hZz7n0Ojw/edit?gid=705387412#gid=705387412';
 function sheetPost(p){if(!SHEET_ENABLED||!SHEET_URL)return;try{fetch(SHEET_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(p)});}catch(e){}}
 
 // ── M10 사진 업로드 ────────────────────────────
